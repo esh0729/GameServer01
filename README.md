@@ -15,6 +15,6 @@
 - 구동 영상 : https://www.youtube.com/watch?v=kXhNyMZ8bfA
 
 # 내부 구조
-![슬라이드1](https://user-images.githubusercontent.com/100393621/204171418-4d9aec84-1b66-47c4-adc2-79071abf94fb.PNG)
-![슬라이드2](https://user-images.githubusercontent.com/100393621/204171423-5ccdd51a-4859-46c7-933c-8627df7c7cc1.PNG)
-![슬라이드3](https://user-images.githubusercontent.com/100393621/204171425-f40d918b-10d1-489c-844d-4e84e9d34dc5.PNG)
+![슬라이드1](https://user-images.githubusercontent.com/100393621/204239249-468d504b-a909-46cb-a911-5b80b80f9694.PNG)
+![슬라이드2](https://user-images.githubusercontent.com/100393621/204239255-1ae55f1a-978d-4a86-a967-1870fbe1a443.PNG)
+![슬라이드3](https://user-images.githubusercontent.com/100393621/204239258-3528b684-43f6-44b0-81af-5dd4391d850f.PNG)
