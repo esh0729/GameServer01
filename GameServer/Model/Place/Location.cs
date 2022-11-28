@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+
+namespace GameServer
+{
+	/// <summary>
+	/// (추상 클래스)장소 정보 관리 클래스
+	/// </summary>
+	public abstract class Location
+	{
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Member variables
+
+		private int m_nId;
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Constructors
+
+		public Location()
+		{
+			m_nId = 0;
+		}
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Properties
+
+		public int locationId
+		{
+			get { return m_nId; }
+		}
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Member functions
+
+		/// <summary>
+		/// (가상 함수)내부 설정 함수
+		/// </summary>
+		/// <param name="dr">데이터 행 객체</param>
+		public virtual void Set(DataRow dr)
+		{
+			if (dr == null)
+				throw new ArgumentNullException("dr");
+
+			m_nId = Convert.ToInt32(dr["locationId"]);
+		}
+	}
+}
