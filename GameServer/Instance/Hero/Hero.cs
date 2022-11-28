@@ -677,10 +677,11 @@ namespace GameServer
 
 			// 이전 섹터에서 삭제
 			if (oldSector != null)
-				oldSector!.RemoveHero(m_id);
+				oldSector.RemoveHero(m_id);
 
 			// 현재 섹터에 추가
-			m_sector!.AddHero(this);
+			if (m_sector != null)
+				m_sector.AddHero(this);
 		}
 
 		//
