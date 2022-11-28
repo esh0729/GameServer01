@@ -12,9 +12,7 @@
 - Server 객체 생성 후 Start 함수 호출 시 작업자 초기화 및 리소스 데이터 로드 이후 서버 시작
 - 사용 인증 서버 : https://github.com/esh0729/AuthServer_DotNetCore 프로젝트
 - 사용 데이터베이스  : MS-SQL(구현부 https://github.com/esh0729/SqlResource 프로젝트)
-
-#. 구동 영상
-https://www.youtube.com/watch?v=kXhNyMZ8bfA
+- 구동 영상 : https://www.youtube.com/watch?v=kXhNyMZ8bfA
 
 # 내부 구조
 ![슬라이드1](https://user-images.githubusercontent.com/100393621/204171418-4d9aec84-1b66-47c4-adc2-79071abf94fb.PNG)
