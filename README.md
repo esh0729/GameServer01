@@ -13,6 +13,9 @@
 - 사용 인증 서버 : https://github.com/esh0729/AuthServer_DotNetCore 프로젝트
 - 사용 데이터베이스  : MS-SQL(구현부 https://github.com/esh0729/SqlResource 프로젝트)
 
+#. 구동 영상
+https://www.youtube.com/watch?v=kXhNyMZ8bfA
+
 # 내부 구조
 ![슬라이드1](https://user-images.githubusercontent.com/100393621/204171418-4d9aec84-1b66-47c4-adc2-79071abf94fb.PNG)
 ![슬라이드2](https://user-images.githubusercontent.com/100393621/204171423-5ccdd51a-4859-46c7-933c-8627df7c7cc1.PNG)
